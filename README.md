@@ -5,21 +5,21 @@
 ### 1. Descarga la imagen "alpine" SIN ARRANCARLA y comprueba que está en tu equipo
 Primer paso a seguir será dentro de la consola en mi caso windows, porque lo ejecute en windows ejecutar el siguiente comando:
   
-  docker pull alpine
+    docker pull alpine
   
 ![Imagen1](https://github.com/oliver-miguez/Tarea-03-SXE-Oliver-Miguez-Alonso/blob/main/1.png)
 
 Y para verificar que se encuentra en nuestro equipo ejecutamos:
 
-  docker ps -a
-  
+    docker ps -a
+    
 ![Imagen2](https://github.com/oliver-miguez/Tarea-03-SXE-Oliver-Miguez-Alonso/blob/main/2.png)
 
 
 ### 2. Crea un contenedor sin ponerle nombre. ¿está arrancado? Obtén el nombre
 Para crear un contenedor sin nombre ejecutamos el siguiente comando : 
 
-  run alpine
+    run alpine
   
 ![Imagen3](https://github.com/oliver-miguez/Tarea-03-SXE-Oliver-Miguez-Alonso/blob/main/3.png)
 
@@ -57,6 +57,22 @@ Al igual que dam_alp1, creamos dam_alp2, obtenemos de igual forma su ip, y ahora
 
 ### 6. Sal del terminal, ¿que ocurrió con el contenedor?
 
+Yo como le habia añadido el parámetro infinity al contenedor cuando cierre la terminal con exit no ocurrira nada, sin embargo si lo hacemos sin este , el proceso del contenedor se cerrará
+
 ### 7. ¿Cuanta memoria en el disco duro ocupaste?
+Para ver lo que ocupan simplemente ejecutamos: 
+
+    docker system df
+  y comprobaremos el almacenamiento que ocupan
+  
+    docker images
+  para ver el tamaño de cada imagen especifica
+
+    docker ps -s
+  para ver el tamaña de los que se estan ejecutando
 
 ### 8. ¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.
+
+Y para ver la ram consumida:
+
+    docker stats
