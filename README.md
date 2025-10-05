@@ -43,11 +43,11 @@ Y si vemos el "#" es que nos encontraremos ya dentro del el
 
 Para comprobar la ip que tiene simplemente ejecutamos esto:
 
-![Imagen5] (https://github.com/oliver-miguez/Tarea-03-SXE-Oliver-Miguez-Alonso/blob/main/6.png)
+![Imagen5](https://github.com/oliver-miguez/Tarea-03-SXE-Oliver-Miguez-Alonso/blob/main/6.png)
 
 De esta manera sabremos cual es su ip, y para hacer ping  con google.com necesitamos primero acceder al contenedor y ejecutar : 
 
-![Imagen6] (https://github.com/oliver-miguez/Tarea-03-SXE-Oliver-Miguez-Alonso/blob/main/7.png)
+![Imagen6](https://github.com/oliver-miguez/Tarea-03-SXE-Oliver-Miguez-Alonso/blob/main/7.png)
 
 ### 5. Crea un contenedor con el nombre 'dam_alp2'. ¿Puedes hacer ping entre los contenedores?
 
